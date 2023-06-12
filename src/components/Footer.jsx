@@ -24,7 +24,7 @@ const Footer = () => {
         >
           {/* icons */}
           <a
-            href="https://github.com/tu-usuario/tu-repositorio"
+            href="https://github.com/alleenu/ProyectoReact"
             target="_blank"
             rel="noopener noreferrer"
           >
