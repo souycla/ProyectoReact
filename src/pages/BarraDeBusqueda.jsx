@@ -5,7 +5,7 @@ import { Box, Container, TextField, Typography } from "@mui/material";
 
 const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=9de7c4cb88b549889e0152859230706&lang=es&q=`;
 
-const Menu = () => {
+const BarradeBusqueda = () => {
   const [ciudad, establecerCiudad] = useState("");
   const [error, setError] = useState({
     error: false,
@@ -135,5 +135,5 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default BarradeBusqueda;
 
